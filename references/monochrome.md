@@ -1,4 +1,4 @@
-# C — Monochrome Art Sticker
+# C — Single-Color Art Sticker
 
 ## Deliverable
 One independent transparent-background PNG.
@@ -10,9 +10,10 @@ Required file properties:
 
 ## Operation
 Color Sticker / locked Master
-→ controlled monochrome conversion
+→ choose one ink hue (black by default)
+→ controlled single-color conversion with a small value range
 → preserve sticker silhouette and layout
-→ black ink lines + restrained black shapes
+→ ink-colored lines + restrained ink-colored shapes
 → preserve paper white
 
 ## Preserve
@@ -21,9 +22,12 @@ Color Sticker / locked Master
 - subject relationship
 - proportions
 - line character
+- readable value hierarchy
 
 ## Change
-Primarily the color expression.
+Primarily the color expression. “Monochrome” means one hue family, not
+necessarily pure black-and-white. Keep a few distinct values so the selected
+motifs remain legible; keep the die-cut exterior truly transparent.
 
 ## Short prompt pattern
-> Create the monochrome print edition of the locked color sticker. Preserve the exact composition, silhouette, proportions and line character. Replace the colors with delicate black ink lines and a few restrained black shapes, allowing generous paper white to remain. Keep the exterior fully transparent.
+> Create the single-color print edition of the locked color sticker using [black / chosen ink hue]. Preserve the exact composition, silhouette, proportions and line character. Translate the artwork into a restrained value range within that one hue, keeping paper-white openings and enough contrast for each selected motif to remain legible. Do not apply a crude grayscale filter or merge the motifs into a black blob. Keep the exterior fully transparent.
