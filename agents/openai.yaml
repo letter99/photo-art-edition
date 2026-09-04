@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Art Edition"
+  short_description: "将照片转化为自适应版式的编辑海报与同源透明艺术贴纸"
+  default_prompt: "使用 $photo-art-edition 将我上传的照片处理成适应原图方向的编辑海报、彩色透明贴纸和可选墨色的单色透明贴纸。保留照片的情绪记忆与主体关系，以低饱和水彩、纸张触感、安静留白和克制的手工化痕迹提炼画面；不要把它固定成植物学速写或物件清单。"
