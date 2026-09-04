@@ -2,13 +2,25 @@
 
 Turn one photograph into a coherent editorial image edition:
 
-- `A_poster.png` — vertical 3:4 editorial poster
+- `A_poster.png` — orientation-aware editorial poster
 - `B_color_sticker.png` — transparent color art sticker
-- `C_monochrome_sticker.png` — transparent monochrome art sticker
+- `C_monochrome_sticker.png` — transparent single-color art sticker
 
 The workflow emphasizes whole-scene understanding, a locked Master Illustration,
 short selective prompts, derivative-first production, and file-level QA for
-transparent sticker PNGs.
+transparent sticker PNGs. Poster geometry adapts to portrait, landscape and
+panoramic source images. Stickers are selected, abstracted and recomposed from
+meaningful scene motifs rather than cropped from the complete illustration.
+The preferred visual direction is a quiet remembered editorial watercolor
+image: a modest subject, abundant breathing room, low-saturation source-derived
+color, tactile paper and restrained hand-made reduction. References guide the
+level of quietness and abstraction; they do not force a botanical subject,
+specific composition, or object checklist.
+
+The C asset keeps the historical filename `C_monochrome_sticker.png` for
+compatibility, but its treatment is single-color rather than necessarily
+black-and-white. Black is the default; ask for an ink hue or hex color when a
+different tone better suits the source.
 
 ## Usage
 
